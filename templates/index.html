@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Simple Calculator</h2>
+        <form method="POST">
+            <input type="number" name="num1" placeholder="Enter first number" step="any" required>
+            <select name="operation" required>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">×</option>
+                <option value="/">÷</option>
+            </select>
+            <input type="number" name="num2" placeholder="Enter second number" step="any" required>
+            <button type="submit">Calculate</button>
+        </form>
+        {% if result is not none %}
+        <div class="result">Result: {{ result }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>
