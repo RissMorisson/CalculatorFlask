@@ -42,7 +42,7 @@ Follow these steps to get the calculator running on your local machine:
 
     For mobile access, find your PC's IP address (e.g., `192.168.x.x`) using `ipconfig` (Windows) or `ifconfig` (Linux/Mac). Then, visit `http://<PC-IP>:5000` from your phone, ensuring both devices are on the same Wi-Fi network.
 
----
+<img height="100px" width="100%" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHh4aDhsMHF6dmI4b3pybWR2bWlhdDJ2dXI0bzBjanAxaDdtZzdzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/TIj8cbzWYKnE9ul3ab/giphy.gif"  />
 
 ## Deployment
 
